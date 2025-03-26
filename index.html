@@ -82,12 +82,22 @@
       <!-- Wrapper for slides-->
       <div role="listbox" class="carousel-inner">
         <div style="background-image: url(images/homepage.jpg); background-size: fit; background-position: center center;" class="item active slide-1">
-          <div class="carousel-caption">
+          <!-- <div class="carousel-caption">
             <div class="thm-container">
               <div class="box valign-bottom">
                 <div class="content text-center"><img data-animation="animated fadeInUp" src="images/new/title-silder.png" alt="">
                   <h2 data-animation="animated fadeInUp mb-5" >Guiding You to<br> Financial Freedom</h2>
                   
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <div class="carousel-caption">
+            <div class="thm-container">
+              <div class="box valign-bottom">
+                <div class="content text-center"><img data-animation="animated fadeInUp" src="images/new/title-silder.png" alt="">
+                  <h2 data-animation="animated fadeInUp">Guiding You to<br> Financial Freedom</h2>
+                  <a data-animation="animated fadeInLeft" href="#" class="thm-button">About Us <i class="fa fa-arrow-right"></i></a><a data-animation="animated fadeInRight" href="#" class="thm-button inverse">Contact Us <i class="fa fa-arrow-right"></i></a>
                 </div>
               </div>
             </div>
@@ -128,12 +138,11 @@
             <div class="heading-row">
               <div class="sec-title">
                 <h2>
-                  <big>35</big> Years of Quality
-                  						Service in <span>Finance</span>
+                  <big>Our</big> <span>Services</span>
                 </h2>
               </div>
               <div class="border-line hidden-xs"></div>
-              <p class="heading-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Consect petur adipiscing elit.  eu fugiat nulla pariatur. Excepteur sint occaecat</p>
+              
             </div>
           </div>
         </div>
@@ -547,33 +556,27 @@
         </div>
       </div>
     </section> -->
-    <section class="footer-contacts">
-      <div class="thm-container">
-        <h2>We help you to make the best marketable strategy , asset and execution</h2><a data-animation="animated fadeInLeft" href="#" class="thm-button">Contact Us <i class="fa fa-arrow-right"></i></a>
-      </div>
-    </section>
     <footer class="footer">
       <div class="thm-container">
         <div class="row">
           <div class="col-md-4">
-            <div class="footer-widget about-widget"><a href="index.html"><img src="images/joe_logo.png" alt="Awesome Image"></a>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            <div class="footer-widget about-widget"><a href="index.html"><img src="images/joe_white_logo.png" alt="Awesome Image"></a>
               <div class="tel-box">
                 <div class="icon-box"><i class="fa fa-map-marker"></i></div>
                 <div class="text-box">
-                  <p>42 Tailstoi Town 5248 MT, Wordwide Country</p>
+                  <p>Joe Financel, Dubai World Trade Centre - Office 25A, Bhurj Al Salam - Level 25 - Sheikh Zayed Road - Dubai - United Arab Emirates</p>
                 </div>
               </div>
               <div class="tel-box">
                 <div class="icon-box"><i class="fa fa-phone"></i></div>
                 <div class="text-box">
-                  <p>( 018) 65 524 8503  /  (125) 954 7854</p>
+                  <p>+971 55 649 9528</p>
                 </div>
               </div>
               <div class="tel-box">
                 <div class="icon-box"><i class="fa fa-envelope"></i></div>
                 <div class="text-box">
-                  <p><a href="#">contact@financepro.com</a></p>
+                  <p><a href="#">joefinance.info@gmail.com</a></p>
                 </div>
               </div>
             </div>
@@ -591,6 +594,7 @@
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Our Team</a></li>
                   </ul>
                 </div>
               </div>
@@ -623,7 +627,7 @@
     <section class="footer-bottom">
       <div class="thm-container clearfix">
         <div class="pull-left">
-          <p>Copyright © Joe Finance. All rights reserved. </p>
+          <p>Copyright © <span id="year"></span> Joe Finance. All rights reserved.</p>
         </div>
       </div>
     </section>
@@ -638,7 +642,6 @@
     <script src="plugins/waypoints.min.js"></script>
     <script src="plugins/jquery.counterup.min.js"></script>
     <script src="js/theme.js"></script>
+    <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
   </body>
-
-<!-- Mirrored from designarc.biz/demos/finantec/Default_demo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 24 Mar 2025 06:51:31 GMT -->
 </html>
